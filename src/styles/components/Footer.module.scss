@@ -1,0 +1,23 @@
+.footer {
+  background-color: #212529; // Darker Bootstrap bg-dark
+  padding: 2rem 0;
+
+  h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  p, a {
+    font-size: 0.9rem;
+    color: #f8f9fa !important; // Light text
+  }
+
+  a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #0d6efd !important; // Bootstrap primary color
+    }
+  }
+}

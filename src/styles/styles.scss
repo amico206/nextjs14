@@ -1,0 +1,20 @@
+// styles/main.scss
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/variables';
+
+// Utilities
+@import 'utils/mixins';
+@import 'utils/functions';
+@import 'utils/placeholders';
+
+// Components
+@import 'components/button';
+@import 'components/card';
+@import 'components/navbar';
+
+// Layouts
+@import 'layouts/main';
+@import 'layouts/footer';
