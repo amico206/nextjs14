@@ -1,5 +1,21 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+# Basic starter Next.js site
+
+## Specs
+
+- Next.js 14.2.18
+- Bootstrap 5.1.3
+- sass enabled and organized for pages and components
+- contains single home/index page
+- header, main, and footer sections with unique components
+
+
+
+
+# Starting from scratch
+
 ## Getting Started
 
 First, run the development server:
