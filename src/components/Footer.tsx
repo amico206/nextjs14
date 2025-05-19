@@ -1,4 +1,5 @@
 import styles from '@/styles/components/Footer.module.scss';
+import Link from 'next/link';
 
 const Footer: React.FC = () => {
   return (
@@ -12,9 +13,9 @@ const Footer: React.FC = () => {
           <div className="col-md-4 mb-3 mb-md-0">
             <h5>Links</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="text-white">Home</a></li>
-              <li><a href="/about" className="text-white">About</a></li>
-              <li><a href="/contact" className="text-white">Contact</a></li>
+              <li><Link href="/" className="text-white">Home</Link></li>
+              <li><Link href="/about" className="text-white">About</Link></li>
+              <li><Link href="/contact" className="text-white">Contact</Link></li>
             </ul>
           </div>
           <div className="col-md-4">
